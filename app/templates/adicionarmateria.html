@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastro de Matéria</title>
+  <link rel="stylesheet" href="style_cadastro.css" />
+  <style>
+    .form-box {
+      background-color: #d9d9d9;
+      width: 320px;
+      margin: 80px auto;
+      padding: 30px;
+      border: 5px solid #b30032;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 15px;
+      box-sizing: border-box;
+    }
+
+    .upload-area {
+      width: 100%;
+      text-align: center;
+      padding: 25px;
+      background-color: #fff0f3;
+      border: 2px dashed #999;
+      border-radius: 6px;
+      font-size: 0.95rem;
+      box-sizing: border-box;
+    }
+
+    .upload-area a {
+      color: #b30032;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    input[type="text"],
+    select,
+    .custom-btn {
+      width: 100%;
+      padding: 12px;
+      border-radius: 5px;
+      font-size: 1rem;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+    }
+
+    .custom-btn {
+      cursor: pointer;
+      border: none;
+      background-color: #b30032;
+      color: white;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    .custom-btn:hover {
+      background-color: #8a0023;
+    }
+
+    /* Modal Styles */
+    .modal-overlay {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.5);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .modal {
+      background: white;
+      padding: 20px 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+      max-width: 300px;
+      text-align: center;
+      font-size: 1.1rem;
+      position: relative;
+    }
+
+    .modal button {
+      margin-top: 15px;
+      padding: 8px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #b30032;
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .modal button:hover {
+      background-color: #8a0023;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-box">
+    <div class="upload-area">
+      Arraste e solte<br>arquivos aqui ou<br><a href="#" id="browseFiles">busque</a>
+    </div>
+    <input type="text" id="subjectInput" placeholder="Física..." />
+    <select>
+      <option disabled selected>Selecione a área</option>
+      <option>Ciências Exatas</option>
+      <option>Ciências Humanas</option>
+      <option>Ciências Biológicas</option>
+    </select>
+    <button class="custom-btn">Adicionar</button>
+  </div>
+
+  <input type="file" id="fileInput" style="display:none" />
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal">
+      <div id="modalMessage"></div>
+      <button id="closeModalBtn">Fechar</button>
+    </div>
+  </div>
+
+  <script>
+    // Upload "busque" link triggers file select
+    document.getElementById('browseFiles').addEventListener('click', function(e){
+      e.preventDefault();
+      document.getElementById('fileInput').click();
+    });
+
+    const uploadArea = document.querySelector('.upload-area');
+    const fileInput = document.getElementById('fileInput');
+
+    uploadArea.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      uploadArea.style.borderColor = '#b30032';
+    });
+
+    uploadArea.addEventListener('dragleave', (e) => {
+      e.preventDefault();
+      uploadArea.style.borderColor = '#999';
+    });
+
+    uploadArea.addEventListener('drop', (e) => {
+      e.preventDefault();
+      uploadArea.style.borderColor = '#999';
+      fileInput.files = e.dataTransfer.files;
+      alert(`Arquivo(s) selecionado(s): ${fileInput.files.length}`);
+    });
+
+    // Modal elements
+    const modalOverlay = document.getElementById('modalOverlay');
+    const modalMessage = document.getElementById('modalMessage');
+    const closeModalBtn = document.getElementById('closeModalBtn');
+
+    function showModal(message) {
+      modalMessage.textContent = message;
+      modalOverlay.style.display = 'flex';
+    }
+
+    closeModalBtn.addEventListener('click', () => {
+      modalOverlay.style.display = 'none';
+    });
+
+    // Adicionar botão
+    document.querySelector('.custom-btn').addEventListener('click', function(e) {
+      e.preventDefault();
+      const subject = document.getElementById('subjectInput').value.trim();
+      if(subject) {
+        showModal(`Matéria "${subject}" adicionada com sucesso!`);
+      } else {
+        showModal('Por favor, digite o nome da matéria antes de adicionar.');
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,410 @@
+[
+  {
+    "id": "20250614103453",
+    "nome": "Irvila ",
+    "materias": [
+      "Química"
+    ],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Terça": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quarta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quinta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Sexta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      }
+    }
+  },
+  {
+    "id": "20250614103520",
+    "nome": "Irene",
+    "materias": [
+      "Matemática"
+    ],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Terça": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quarta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quinta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Sexta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      }
+    }
+  },
+  {
+    "id": "20250614103743",
+    "nome": "Mário",
+    "materias": [
+      "Física"
+    ],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Terça": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quarta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quinta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Sexta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      }
+    }
+  },
+  {
+    "id": "20250614103808",
+    "nome": "Jéssica",
+    "materias": [
+      "Português"
+    ],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Terça": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quarta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quinta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Sexta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      }
+    }
+  },
+  {
+    "id": "20250614103847",
+    "nome": "Cristiano",
+    "materias": [
+      "Biologia"
+    ],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Terça": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quarta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quinta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Sexta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      }
+    }
+  },
+  {
+    "id": "20250614103953",
+    "nome": "Thiago",
+    "materias": [
+      "História"
+    ],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Terça": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quarta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quinta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Sexta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      }
+    }
+  },
+  {
+    "id": "20250614104016",
+    "nome": "Renatuh",
+    "materias": [
+      "Geografia"
+    ],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Terça": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quarta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quinta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Sexta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      }
+    }
+  },
+  {
+    "id": "20250614104040",
+    "nome": "Mônica",
+    "materias": [
+      "Inglês"
+    ],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Terça": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quarta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quinta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Sexta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      }
+    }
+  },
+  {
+    "id": "20250614104103",
+    "nome": "Lilian",
+    "materias": [
+      "Educação Física"
+    ],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Terça": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quarta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quinta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Sexta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      }
+    }
+  },
+  {
+    "id": "20250614104123",
+    "nome": "Laio",
+    "materias": [
+      "Sociologia"
+    ],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Terça": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quarta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quinta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Sexta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      }
+    }
+  },
+  {
+    "id": "20250614104143",
+    "nome": "Érlan",
+    "materias": [
+      "Filosofia"
+    ],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Terça": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quarta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quinta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Sexta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      }
+    }
+  },
+  {
+    "id": "20250619164123",
+    "nome": "Davi Oliveira Teobaldo",
+    "materias": [
+      "Matemática"
+    ],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Terça": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quarta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Quinta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      },
+      "Sexta": {
+        "manha": true,
+        "tarde": true,
+        "noite": true
+      }
+    }
+  }
+]

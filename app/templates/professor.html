@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professor - Projeto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{ url_for('static', filename='css/style_professor.css') }}" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="top-bar d-flex align-items-center position-relative">
+    <img src="{{ url_for('static', filename='img/RGRID-removebg-preview.png') }}" alt="Logo" width="50" class="logo-left">
+    <h1 class="titulo-projeto m-0 text-white position-absolute top-50 start-50 translate-middle">ORGRID</h1>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <div class="container py-5">
+    <div class="row mb-4 align-items-center">
+      <div class="col-md-3 text-center">
+        <img src="{{ url_for('static', filename='img/cafa41cba23543a5f4bf5f2b1ec6ff25193f8468.png') }}" alt="Foto do Professor" class="profile-img mb-2">
+        <h5>José Carlos Teixeira</h5>
+        <p class="text-muted small">Professor<br>e-mail constitucional<br>(matérias)</p>
+      </div>
+      <div class="col-md-9">
+        <div class="shadow-box">
+          <p>Descrição do professor</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="shadow-box">
+          <h6>Grade horária (aulas do prof.)</h6>
+          <div class="schedule-grid mt-3">
+            <!-- Simulação de células da grade -->
+            <div class="schedule-cell"></div>
+            <div class="schedule-cell"></div>
+            <div class="schedule-cell"></div>
+            <div class="schedule-cell"></div>
+            <div class="schedule-cell"></div>
+            <div class="schedule-cell"></div>
+            <div class="schedule-cell"></div>
+            <div class="schedule-cell"></div>
+            <div class="schedule-cell"></div>
+            <div class="schedule-cell"></div>
+            <div class="schedule-cell"></div>
+            <div class="schedule-cell"></div>
+            <div class="schedule-cell"></div>
+            <div class="schedule-cell"></div>
+            <div class="schedule-cell"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="shadow-box">
+          <h6>Notificações</h6>
+          <div class="mt-3">
+            <div class="p-2 bg-light rounded mb-2">Notificação 1</div>
+            <div class="p-2 bg-light rounded">Notificação 2</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-end mt-4">
+      <button class="btn btn-danger me-2">Enviar notificação</button>
+      <button class="btn btn-danger">Atribuir aulas</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

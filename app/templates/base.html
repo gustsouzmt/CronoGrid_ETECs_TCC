@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    {% block head %}
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{% block meta_description %}{% endblock %}">
+    <meta http-equiv="author" content="CronoGrid's Team">
+    <meta http-equiv="pragma" content="no-cache">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='global.css') }}">
+    <link rel="stylesheet" href="{% block css_file %}{% endblock %}">
+
+    <title>{% block title %}{% endblock %}</title>
+
+    {% endblock %}
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="row min-vh-100">
+            <div class="col-md-3 col-lg-2 text-white p-4 sidebar">
+                <h2 class="text-center mb-4">
+                    <i class="fas fa-calendar-alt me-2"></i>Grade Horária
+                </h2>
+                <hr>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="{{ url_for('main.index') }}">
+                            <i class="fas fa-home me-2"></i>Dashboard
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#professores-section">
+                            <i class="fas fa-chalkboard-teacher me-2"></i>Professores
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gerar-horarios">
+                            <i class="fas fa-cogs me-2"></i>Gerar Horários
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-9 col-lg-10 p-4 main-content">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+    </div>
+
+    {% block body %}{% endblock %}
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    {% block scripts %}{% endblock %}
+
+</body>
+</html>

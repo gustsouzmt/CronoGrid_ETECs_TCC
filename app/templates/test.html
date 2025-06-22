@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block head %}
+    {{ super() }}
+{% endblock %}
+{% block meta_description %}Página de Grade Horária de Professores{% endblock %}
+{% block title %}Grade Horária{% endblock %}
+{% block css_file %}{{ url_for('static', filename='teste.css') }}{% endblock %}]
+
+{% from 'macros.html' import render_form %}
+
+{% block body %}
+    {{ render_form(form) }}
+{% endblock %}

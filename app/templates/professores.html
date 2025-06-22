@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Professores</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+
+    .top-bar {
+      background-color: #b3002d;
+      height: 70px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+      padding: 10px;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+
+    .logo-left {
+      position: absolute;
+      left: 20px;
+    }
+
+    .logo-left img {
+      height: 50px;
+    }
+
+    .titulo-projeto {
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .search-wrapper {
+      width: 80%;
+      max-width: 900px;
+      margin: 40px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .search-input-container {
+      position: relative;
+      width: 100%;
+    }
+
+    .search-input-container input {
+      width: 100%;
+      height: 50px;
+      padding-left: 15px;
+      padding-right: 40px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+      transition: border-color 0.3s ease;
+    }
+
+    .search-input-container input:focus {
+      border-color: #b3002d;
+      outline: none;
+    }
+
+    .search-input-container svg {
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 20px;
+      height: 20px;
+      fill: #b3002d;
+      pointer-events: none;
+    }
+
+    .selects-row {
+      display: flex;
+      gap: 10px;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+
+    .selects-row select {
+      flex: 1 1 18%;
+      height: 50px;
+      padding: 0 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      background-color: white;
+      box-sizing: border-box;
+      transition: border-color 0.3s ease;
+      min-width: 120px;
+    }
+
+    .selects-row select:focus {
+      border-color: #b3002d;
+      outline: none;
+    }
+
+    .professores-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      width: 80%;
+      max-width: 1100px;
+      margin: 40px auto;
+    }
+
+    .card-professor {
+      width: 200px;
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 15px;
+      background-color: #f8f9fa;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      cursor: pointer;
+      transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    }
+
+    .card-professor:hover {
+      box-shadow: 0 8px 20px rgba(179,0,45,0.4);
+      border-color: #b3002d;
+    }
+
+    .card-professor img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .card-professor p {
+      margin: 0;
+      font-weight: bold;
+      font-size: 1.1rem;
+      color: #b3002d;
+    }
+
+    /* Responsividade aprimorada */
+    @media (max-width: 1024px) {
+      .search-wrapper {
+        width: 90%;
+      }
+
+      .professores-container {
+        width: 90%;
+        gap: 20px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .top-bar {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+      }
+
+      .logo-left {
+        position: static;
+        margin-bottom: 10px;
+      }
+
+      .titulo-projeto {
+        font-size: 1.8rem;
+      }
+
+      .selects-row {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .selects-row select {
+        flex: none;
+        width: 100%;
+      }
+
+      .card-professor {
+        width: 100%;
+        max-width: 300px;
+      }
+
+      .card-professor img {
+        width: 120px;
+        height: 120px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .titulo-projeto {
+        font-size: 1.5rem;
+      }
+
+      .card-professor img {
+        width: 100px;
+        height: 100px;
+      }
+
+      .card-professor p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="top-bar">
+    <div class="logo-left">
+      <img src="{{ url_for('static', filename='img/RGRID-removebg-preview.png') }}" alt="Logo do Projeto" />
+    </div>
+    <h1 class="titulo-projeto">Projeto</h1>
+  </header>
+
+  <div class="search-wrapper">
+    <div class="search-input-container">
+      <input type="text" placeholder="Digite o nome..." />
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M10 2a8 8 0 105.292 14.292l4.853 4.853 1.414-1.414-4.853-4.853A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/>
+      </svg>
+    </div>
+    <div class="selects-row">
+      <select><option>Nome</option></select>
+      <select><option>Ranqueamento</option></select>
+      <select><option>Inscrição</option></select>
+      <select><option>Finalização</option></select>
+      <select><option>Matéria</option></select>
+    </div>
+  </div>
+
+    <section class="professores-container">
+    <div class="card-professor">
+      <img src="{{ url_for('static', filename='img/prof1.jpg') }}" alt="Maria" />
+      <p>Maria</p>
+    </div>
+    <div class="card-professor">
+      <img src="{{ url_for('static', filename='img/prof2.jpg') }}" alt="Matheus" />
+      <p>Matheus</p>
+    </div>
+    <div class="card-professor">
+      <img src="{{ url_for('static', filename='img/prof3.jpg') }}" alt="Priscila" />
+      <p>Priscila</p>
+    </div>
+    <div class="card-professor">
+      <img src="{{ url_for('static', filename='img/prof4.jpg') }}" alt="Nímia" />
+      <p>Nímia</p>
+    </div>
+    <div class="card-professor">
+      <img src="{{ url_for('static', filename='img/prof5.jpg') }}" alt="Mariana" />
+      <p>Mariana</p>
+    </div>
+    <div class="card-professor">
+      <img src="{{ url_for('static', filename='img/prof6.jpg') }}" alt="Amaral" />
+      <p>Amaral</p>
+    </div>
+    <div class="card-professor">
+      <img src="{{ url_for('static', filename='img/prof7.jpg') }}" alt="Renato" />
+      <p>Renato</p>
+    </div>
+    <div class="card-professor">
+      <img src="{{ url_for('static', filename='img/prof8.jpg') }}" alt="Paulo" />
+      <p>Paulo</p>
+    </div>
+  </section>
+
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,73 @@
+/* Reset básico */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+  }
+  
+  .header {
+    background-color: #b30032;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+/* Barra superior */
+.top-bar {
+  background-color: #b30032;
+  height: 70px;
+  width: 100%;
+  position: relative;
+}
+
+/* Logo no canto esquerdo */
+.logo-left {
+  position: absolute;
+  left: 20px;
+}
+
+/* Título centralizado com fonte maior */
+.titulo-projeto {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700; /* negrito */
+}
+
+/* Imagem do professor */
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+
+.shadow-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  height: 100%;
+}
+
+/* Grade de horários */
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+}
+
+.schedule-cell {
+  height: 30px;
+  background-color: #dee2e6;
+  border-radius: 4px;
+}
+
+button.btn-danger {
+  background-color: #b30032;
+  border-color: #b30032;
+}
+
+button.btn-danger:hover {
+  background-color: #8a0027; 
+  border-color: #8a0027;
+}

@@ -1,0 +1,5901 @@
+[
+  {
+    "id": "20250622114559",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114625",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114625",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114626",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114626",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114626",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114626",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114626",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114626",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114626",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114626",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114626",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114626",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114626",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114626",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114626",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114626",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114626",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114626",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114626",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114626",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114627",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114627",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114627",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114627",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114627",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114627",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114627",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114627",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114627",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114627",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114627",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114627",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114627",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114627",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114627",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114627",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114627",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114627",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114627",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114627",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114632",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114632",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114632",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114632",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114632",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114632",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114633",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114633",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114633",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114633",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114633",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114633",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114633",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114633",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114633",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114633",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114633",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114633",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114633",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622114633",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125851",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125851",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125851",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125851",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125851",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125851",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125851",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125851",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125851",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125851",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125851",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125851",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125851",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125851",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125851",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125852",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125852",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125852",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125852",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125852",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125853",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125853",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125853",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125853",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125853",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125853",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125853",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125853",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125853",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125853",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125853",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125853",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125853",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125853",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125853",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125853",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125853",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125853",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125853",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622125853",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130123",
+    "nome": "neymar",
+    "materias": [
+      "Português"
+    ],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": true,
+        "tarde": false,
+        "noite": true
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": true,
+        "noite": true
+      },
+      "Quarta": {
+        "manha": true,
+        "tarde": true,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": true
+      },
+      "Sexta": {
+        "manha": true,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130123",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130123",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130123",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130123",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130123",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130123",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130123",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130123",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130123",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130123",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130123",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130123",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130123",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130123",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130123",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130123",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130123",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130124",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130124",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130125",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130125",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130125",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130125",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130125",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130125",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130125",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130125",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130125",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130125",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130125",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130125",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130125",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130125",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130125",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130125",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130125",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130125",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130125",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130125",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130130",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130130",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130130",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130131",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130131",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130131",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130131",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130131",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130131",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130131",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130131",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130131",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130131",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130131",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130131",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130131",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130131",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130131",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130131",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130131",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130201",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130201",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130201",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130201",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130202",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130202",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130202",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130202",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130202",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130202",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130202",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130202",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130202",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130202",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130202",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130202",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130202",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130202",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130202",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130202",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130221",
+    "nome": null,
+    "materias": [],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Terça": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      },
+      "Sexta": {
+        "manha": false,
+        "tarde": false,
+        "noite": false
+      }
+    }
+  },
+  {
+    "id": "20250622130409",
+    "nome": "neymar",
+    "materias": [
+      "Matemática",
+      "Física",
+      "Química",
+      "Filosofia"
+    ],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": true,
+        "tarde": true,
+        "noite": false
+      },
+      "Terça": {
+        "manha": true,
+        "tarde": false,
+        "noite": true
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": true,
+        "noite": true
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": false,
+        "noite": true
+      },
+      "Sexta": {
+        "manha": true,
+        "tarde": false,
+        "noite": true
+      }
+    }
+  },
+  {
+    "id": "20250622130753",
+    "nome": "neymar",
+    "materias": [
+      "Matemática",
+      "Física",
+      "Química"
+    ],
+    "disponibilidade": {
+      "Segunda": {
+        "manha": true,
+        "tarde": true,
+        "noite": false
+      },
+      "Terça": {
+        "manha": true,
+        "tarde": false,
+        "noite": true
+      },
+      "Quarta": {
+        "manha": false,
+        "tarde": true,
+        "noite": true
+      },
+      "Quinta": {
+        "manha": false,
+        "tarde": true,
+        "noite": true
+      },
+      "Sexta": {
+        "manha": true,
+        "tarde": false,
+        "noite": true
+      }
+    }
+  }
+]
