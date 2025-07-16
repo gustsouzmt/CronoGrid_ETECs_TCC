@@ -7,24 +7,25 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
   <link href="{{ url_for('static', filename='css/style_cadastro.css') }}" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
 </head>
+
 <body>
   <header class="top-bar d-flex align-items-center justify-content-between px-3">
-  <img src="{{ url_for('static', filename='img/RGRID-removebg-preview.png') }}" alt="Logo" width="50" class="logo-left">
-  <h1 class="titulo-projeto text-center flex-grow-1 m-0">ORGRID</h1>
-</header>
+    <img src="{{ url_for('static', filename='img/RGRID-removebg-preview.png') }}" alt="Logo" width="50" class="logo-left">
+    <h1 class="titulo-projeto text-center flex-grow-1 m-0">ORGRID</h1>
+  </header>
 
   <main class="container mt-4 mb-5">
     <section>
       <h4 class="mb-3">Cadastro de Instituição</h4>
-      <form>
+      <form method="POST">
+        {{ form.hidden_tag() }}
         <div class="row g-3">
           <div class="col-md-6">
-            <input type="text" class="form-control" placeholder="Instituição..."/>
+            {{ form.instituicao(class="form-control", placeholder="Instituição...") }}
           </div>
           <div class="col-md-6">
-            <input type="text" class="form-control" placeholder="CNPJ"/>
+            {{ form.cnpj(class="form-control", placeholder="CNPJ") }}
           </div>
 
           <div class="col-12">
@@ -35,104 +36,69 @@
           </div>
 
           <div class="col-md-5">
-            <input type="text" class="form-control" placeholder="Endereço..."/>
+            {{ form.endereco(class="form-control", placeholder="Endereço...") }}
           </div>
           <div class="col-md-2">
-            <input type="text" class="form-control" placeholder="Nº"/>
+            {{ form.numero(class="form-control", placeholder="Nº") }}
           </div>
           <div class="col-md-5">
-            <input type="text" class="form-control" placeholder="Bairro..."/>
+            {{ form.bairro(class="form-control", placeholder="Bairro...") }}
           </div>
 
           <div class="col-md-5">
-            <input type="text" class="form-control" placeholder="Cidade..."/>
+            {{ form.cidade(class="form-control", placeholder="Cidade...") }}
           </div>
           <div class="col-md-2">
-            <select class="form-select">
-              <option selected>UF...</option>
-              <option>AC</option>
-              <option>AL</option>
-              <option>AP</option>
-              <option>AM</option>
-              <option>BA</option>
-              <option>CE</option>
-              <option>DF</option>
-              <option>ES</option>
-              <option>GO</option>
-              <option>MA</option>
-              <option>MT</option>
-              <option>MS</option>
-              <option>MG</option>
-              <option>PA</option>
-              <option>PB</option>
-              <option>PR</option>
-              <option>PE</option>
-              <option>PI</option>
-              <option>RJ</option>
-              <option>RN</option>
-              <option>RS</option>
-              <option>RO</option>
-              <option>RR</option>
-              <option>SC</option>
-              <option>SP</option>
-              <option>SE</option>
-              <option>TO</option>
-              <!-- Todos os estados -->
-            </select>
+            {{ form.uf(class="form-select") }}
           </div>
           <div class="col-md-5">
-            <input type="text" class="form-control" placeholder="CEP"/>
+            {{ form.cep(class="form-control", placeholder="CEP") }}
           </div>
 
           <div class="col-md-6">
-            <input type="text" class="form-control" placeholder="Telefone"/>
+            {{ form.telefone(class="form-control", placeholder="Telefone") }}
           </div>
           <div class="col-md-6">
-            <input type="email" class="form-control" placeholder="E-mail..."/>
+            {{ form.email(class="form-control", placeholder="E-mail...") }}
           </div>
 
-       
           <div class="col-md-6">
-      <input type="text" class="form-control" placeholder="Rede de Ensino..."/>
-      </div>
-        <div class="col-md-6">
-          <select class="form-select">
-           <option selected>Categoria...</option>
-           <option>Pública</option>
-           <option>Privada</option>
-          </select>
-         </div>
-        </div>
-      </form>
-    </section>
-
-    <section class="mt-5">
-      <h4 class="mb-3">Cadastro de diretor acadêmico</h4>
-      <form>
-        <div class="row g-3">
-          <div class="col-12">
-            <input type="text" class="form-control" placeholder="Nome completo..."/>
+            {{ form.rede_ensino(class="form-control", placeholder="Rede de Ensino...") }}
           </div>
           <div class="col-md-6">
-            <input type="text" class="form-control" placeholder="CPF"/>
-          </div>
-          <div class="col-md-6">
-            <input type="text" class="form-control" placeholder="RG"/>
-          </div>
-          <div class="col-md-4">
-            <input type="text" class="form-control" placeholder="Sexo..."/>
-          </div>
-          <div class="col-md-4">
-            <input type="text" class="form-control" placeholder="Telefone"/>
-          </div>
-          <div class="col-md-4">
-            <input type="text" class="form-control" placeholder="Endereço..."/>
+            {{ form.categoria(class="form-select") }}
           </div>
         </div>
 
-        <div class="text-center mt-4">
-          <button type="submit" class="btn btn-danger custom-btn">Cadastrar-se</button>
-        </div>
+        <hr class="my-4">
+
+        <section class="mt-5">
+          <h4 class="mb-3">Cadastro de diretor acadêmico</h4>
+          <div class="row g-3">
+            <div class="col-12">
+              {{ form.diretor_nome(class="form-control", placeholder="Nome completo...") }}
+            </div>
+            <div class="col-md-6">
+              {{ form.diretor_cpf(class="form-control", placeholder="CPF") }}
+            </div>
+            <div class="col-md-6">
+              {{ form.diretor_rg(class="form-control", placeholder="RG") }}
+            </div>
+            <div class="col-md-4">
+              {{ form.diretor_sexo(class="form-control", placeholder="Sexo...") }}
+            </div>
+            <div class="col-md-4">
+              {{ form.diretor_telefone(class="form-control", placeholder="Telefone") }}
+            </div>
+            <div class="col-md-4">
+              {{ form.diretor_endereco(class="form-control", placeholder="Endereço...") }}
+            </div>
+          </div>
+
+          <div class="text-center mt-4">
+            {{ form.submit(class="btn btn-danger custom-btn") }}
+          </div>
+        </section>
       </form>
     </section>
   </main>

@@ -1,5 +1,8 @@
 from flask import request, render_template, session, redirect, url_for, flash, jsonify
 from datetime import datetime
+from .forms import CadastroInstituicaoForm
+from werkzeug.security import generate_password_hash
+from .. import db
 from werkzeug.security import check_password_hash
 from os import path
 from json import load, dump
@@ -101,7 +104,23 @@ def gerar_horarios():
 
 @main.route('/cadastro', methods=['GET', 'POST'])
 def cadastro():
-    return render_template('cadastro.html')
+    form = CadastroInstituicaoForm()
+
+    if form.validate_on_submit():
+        diretor = Usuario(
+            nome=form.diretor_nome.data,
+            email=form.email.data,
+            senha_hash=generate_password_hash("senha_padrao123"),  # você pode trocar isso futuramente
+            role='school',
+            codigo_instituicao=form.cnpj.data  # o CNPJ representa a instituição
+        )
+        db.session.add(diretor)
+        db.session.commit()
+
+        flash("Instituição e diretor cadastrados com sucesso!", "success")
+        return redirect(url_for('main.login'))
+
+    return render_template('cadastro.html', form=form)
 
 @main.route('/login', methods=['GET', 'POST'])
 def login():
