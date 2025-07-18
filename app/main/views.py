@@ -1,26 +1,30 @@
 from flask import request, render_template, session, redirect, url_for, flash, jsonify
 from datetime import datetime
-from .forms import CadastroInstituicaoForm
-from werkzeug.security import generate_password_hash
-from .. import db
-from werkzeug.security import check_password_hash
+from app.main.forms import CadastroInstituicaoForm, MateriaForm
+from werkzeug.security import generate_password_hash, check_password_hash
+from werkzeug.utils import secure_filename
+import os
+from app import db, data_file
+from . import main
+from .models import Materia, Usuario, Usuarios, Cargos, Disciplinas, ProfessoresDisciplinas, Instituicao, DiretorAcademico
 from os import path
 from json import load, dump
-from . import main
-from .models import Usuario
-from .. import data_file
 from .grid_generation import gerar_grade_horaria
 
+# --- Funções originais (JSON) mantidas por desencargo de consciência ---
 def carregar_professores():
     if not path.exists(data_file):
         return []
     with open(data_file, 'r', encoding='utf-8') as f:
         return load(f)
+    
+
 
 def salvar_professores(professores):
     with open(data_file, 'w', encoding='utf-8') as f:
         dump(professores, f, ensure_ascii=False, indent=2)
 
+# --- Rotas originais (mantidas intactas) ---
 @main.route('/', methods=['GET', 'POST'])
 def home():
     return redirect(url_for('main.login'))
@@ -102,26 +106,6 @@ def gerar_horarios():
     professores = carregar_professores()
     return jsonify({"status": "Funcionalidade em desenvolvimento", "professores": len(professores)})
 
-@main.route('/cadastro', methods=['GET', 'POST'])
-def cadastro():
-    form = CadastroInstituicaoForm()
-
-    if form.validate_on_submit():
-        diretor = Usuario(
-            nome=form.diretor_nome.data,
-            email=form.email.data,
-            senha_hash=generate_password_hash("senha_padrao123"),  # você pode trocar isso futuramente
-            role='school',
-            codigo_instituicao=form.cnpj.data  # o CNPJ representa a instituição
-        )
-        db.session.add(diretor)
-        db.session.commit()
-
-        flash("Instituição e diretor cadastrados com sucesso!", "success")
-        return redirect(url_for('main.login'))
-
-    return render_template('cadastro.html', form=form)
-
 @main.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
@@ -152,9 +136,104 @@ def professor():
     return render_template('professor.html')
 
 @main.route('/professores', methods=['GET', 'POST'])
-def adicionar_materia():
+def professores():
     return render_template('professores.html')
 
 @main.route('/lista_professores', methods=['GET', 'POST'])
 def lista_professores():
     return 'lista de professores'
+
+# --- Rotas atualizadas (cadastro + listagem de usuários) ---
+@main.route('/cadastro', methods=['GET', 'POST'])
+def cadastro():
+    form = CadastroInstituicaoForm()
+    
+    if form.validate_on_submit():
+        try:
+            # 1. Cadastra a Instituição
+            instituicao = Instituicao(
+                nome=form.instituicao.data,
+                cnpj=form.cnpj.data,
+                endereco=form.endereco.data,
+                numero=form.numero.data,
+                bairro=form.bairro.data,
+                cidade=form.cidade.data,
+                uf=form.uf.data,
+                cep=form.cep.data,
+                telefone=form.telefone.data,
+                email=form.email.data,
+                rede_ensino=form.rede_ensino.data,
+                categoria=form.categoria.data
+            )
+            db.session.add(instituicao)
+            db.session.flush()  # Para pegar o id da instituição gerado
+
+            # 2. Cadastra o Diretor Acadêmico e vincula à instituição
+            diretor = DiretorAcademico(
+                nome=form.diretor_nome.data,
+                cpf=form.diretor_cpf.data,
+                rg=form.diretor_rg.data,
+                sexo=form.diretor_sexo.data,
+                telefone=form.diretor_telefone.data,
+                endereco=form.diretor_endereco.data,
+                instituicao_id=instituicao.id
+            )
+            db.session.add(diretor)
+
+            # Commit das duas operações
+            db.session.commit()
+
+            flash("Cadastro da instituição e diretor realizado com sucesso!", "success")
+            return redirect(url_for('main.index'))
+        
+        except Exception as e:
+            db.session.rollback()
+            flash(f"Erro no cadastro: {str(e)}", "danger")
+    
+    return render_template('cadastro.html', form=form)
+
+@main.route('/usuarios')
+def usuarios():
+    # Consulta otimizada com JOIN para o template usuarios.html
+    usuarios = db.session.query(
+        Usuarios.id,
+        Usuarios.nome,
+        Usuarios.email,
+        Cargos.nome.label('funcao')
+    ).join(
+        Cargos, Usuarios.id_cargo == Cargos.id
+    ).all()
+    
+    return render_template('usuarios.html', usuarios=usuarios)
+
+# --- Função auxiliar mantida ---
+def obter_id_cargo(nome_cargo):
+    cargo = Cargos.query.filter_by(nome=nome_cargo).first()
+    if not cargo:
+        novo = Cargos(nome=nome_cargo)
+        db.session.add(novo)
+        db.session.commit()
+        return novo.id
+    return cargo.id
+
+
+@main.route('/adicionar_materia', methods=['GET', 'POST'])
+def adicionar_materia():
+    form = MateriaForm()
+    if form.validate_on_submit():
+        filename = None
+        if form.arquivo.data:
+            filename = secure_filename(form.arquivo.data.filename)
+            upload_path = os.path.join(main.config['UPLOAD_FOLDER'], filename)
+            form.arquivo.data.save(upload_path)
+
+        nova_materia = Materia(
+            nome=form.nome.data,
+            area=form.area.data,
+            arquivo_nome=filename
+        )
+        db.session.add(nova_materia)
+        db.session.commit()
+        flash(f'Matéria "{form.nome.data}" cadastrada com sucesso!', 'success')
+        return redirect(url_for('main.adicionar_materia'))
+    return render_template('adicionarmateria.html', form=form)

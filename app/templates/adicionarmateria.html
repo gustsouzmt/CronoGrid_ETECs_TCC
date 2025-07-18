@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Cadastro de Matéria</title>
-  <link rel="stylesheet" href="style_cadastro.css" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style_cadastro.css') }}" />
   <style>
     .form-box {
       background-color: #d9d9d9;
@@ -57,11 +57,11 @@
       font-weight: 600;
       transition: background-color 0.3s ease;
     }
+
     .custom-btn:hover {
       background-color: #8a0023;
     }
 
-    /* Modal Styles */
     .modal-overlay {
       position: fixed;
       top: 0; left: 0; right: 0; bottom: 0;
@@ -94,27 +94,33 @@
       cursor: pointer;
       transition: background-color 0.3s ease;
     }
+
     .modal button:hover {
       background-color: #8a0023;
     }
   </style>
 </head>
 <body>
-  <div class="form-box">
-    <div class="upload-area">
-      Arraste e solte<br>arquivos aqui ou<br><a href="#" id="browseFiles">busque</a>
-    </div>
-    <input type="text" id="subjectInput" placeholder="Física..." />
-    <select>
-      <option disabled selected>Selecione a área</option>
-      <option>Ciências Exatas</option>
-      <option>Ciências Humanas</option>
-      <option>Ciências Biológicas</option>
-    </select>
-    <button class="custom-btn">Adicionar</button>
-  </div>
+  <form method="POST" enctype="multipart/form-data">
+    {{ form.hidden_tag() }}
 
-  <input type="file" id="fileInput" style="display:none" />
+    <div class="form-box">
+      <!-- Upload -->
+      <label for="fileInput" class="upload-area" id="uploadArea">
+        Arraste e solte<br>arquivos aqui ou<br><a href="#" id="browseFiles">busque</a>
+      </label>
+      {{ form.arquivo(id="fileInput", style="display:none") }}
+
+      <!-- Nome da matéria -->
+      {{ form.nome(class="form-control", placeholder="Física...") }}
+
+      <!-- Área da matéria -->
+      {{ form.area(class="form-select") }}
+
+      <!-- Botão -->
+      {{ form.submit(class="custom-btn") }}
+    </div>
+  </form>
 
   <!-- Modal -->
   <div class="modal-overlay" id="modalOverlay">
@@ -124,14 +130,14 @@
     </div>
   </div>
 
+  <!-- Scripts -->
   <script>
-    // Upload "busque" link triggers file select
     document.getElementById('browseFiles').addEventListener('click', function(e){
       e.preventDefault();
       document.getElementById('fileInput').click();
     });
 
-    const uploadArea = document.querySelector('.upload-area');
+    const uploadArea = document.getElementById('uploadArea');
     const fileInput = document.getElementById('fileInput');
 
     uploadArea.addEventListener('dragover', (e) => {
@@ -151,7 +157,7 @@
       alert(`Arquivo(s) selecionado(s): ${fileInput.files.length}`);
     });
 
-    // Modal elements
+    // Modal feedback (pode ser substituído por flash message via Flask)
     const modalOverlay = document.getElementById('modalOverlay');
     const modalMessage = document.getElementById('modalMessage');
     const closeModalBtn = document.getElementById('closeModalBtn');
@@ -165,16 +171,12 @@
       modalOverlay.style.display = 'none';
     });
 
-    // Adicionar botão
-    document.querySelector('.custom-btn').addEventListener('click', function(e) {
-      e.preventDefault();
-      const subject = document.getElementById('subjectInput').value.trim();
-      if(subject) {
-        showModal(`Matéria "${subject}" adicionada com sucesso!`);
-      } else {
-        showModal('Por favor, digite o nome da matéria antes de adicionar.');
-      }
-    });
+    // Exemplo: ativar modal após envio (opcional)
   </script>
+  {% if success %}
+  <script>
+    showModal("Matéria '{{ form.nome.data }}' cadastrada com sucesso!");
+  </script>
+  {% endif %}
 </body>
 </html>

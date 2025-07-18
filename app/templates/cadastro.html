@@ -73,7 +73,7 @@
         <hr class="my-4">
 
         <section class="mt-5">
-          <h4 class="mb-3">Cadastro de diretor acadêmico</h4>
+          <h4 class="mb-3">Cadastro de Diretor Acadêmico</h4>
           <div class="row g-3">
             <div class="col-12">
               {{ form.diretor_nome(class="form-control", placeholder="Nome completo...") }}
@@ -94,11 +94,13 @@
               {{ form.diretor_endereco(class="form-control", placeholder="Endereço...") }}
             </div>
           </div>
-
-          <div class="text-center mt-4">
-            {{ form.submit(class="btn btn-danger custom-btn") }}
-          </div>
         </section>
+
+
+        <div class="text-center mt-4">
+          {{ form.submit(class="btn btn-danger custom-btn") }}
+        </div>
+
       </form>
     </section>
   </main>
