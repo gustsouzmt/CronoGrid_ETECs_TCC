@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <h1 class="display-4 mb-4">Grade Horária Gerada</h1>
+
+    {% if grade.status == 'success' %}
+        {% for turno in ['manha', 'tarde', 'noite'] %}
+            <div class="card shadow mb-5">
+                <div class="card-header bg-info text-white">
+                    <h3 class="mb-0">
+                        <i class="fas fa-calendar-alt me-2"></i>Grade Horária - Turno da {{ turno.capitalize() }}
+                    </h3>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Dia/Horário</th>
+                                    {% for aula in range(6) %}
+                                        <th>Aula {{ aula + 1 }}</th>
+                                    {% endfor %}
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for dia in ['Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta'] %}
+                                    <tr>
+                                        <td><strong>{{ dia }}</strong></td>
+                                        {% for aula in range(6) %}
+                                            <td>
+                                                {% if grade.grade[turno][dia][aula] %}
+                                                    {{ grade.grade[turno][dia][aula].materia }}<br>
+                                                    <small>Prof. {{ grade.grade[turno][dia][aula].professor }}</small>
+                                                {% else %}
+                                                    <span class="text-muted">Vaga</span>
+                                                {% endif %}
+                                            </td>
+                                        {% endfor %}
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        <div class="alert alert-secondary mt-3">
+            <i class="fas fa-info-circle me-2"></i>
+            Folga total: {{ grade.folga|round(2) }} (quanto menor, melhor)
+        </div>
+    {% else %}
+        <div class="alert alert-danger">
+            <i class="fas fa-exclamation-triangle me-2"></i>
+            {{ grade.message }}
+        </div>
+        <p>Sugestões para resolver:</p>
+        <ul>
+            <li>Contratar mais professores para matérias com falta</li>
+            <li>Revisar a disponibilidade dos professores</li>
+            <li>Ajustar as cargas horárias das matérias</li>
+        </ul>
+    {% endif %}
+
+    <a href="{{ url_for('main.index') }}" class="btn btn-primary mt-3">
+        <i class="fas fa-arrow-left me-2"></i>Voltar
+    </a>
+    
+{% endblock %}

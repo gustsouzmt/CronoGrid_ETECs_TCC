@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 class="display-4 mb-4">Editar Professor</h1>
+
+    <div class="card shadow mb-5">
+        <div class="card-header bg-warning text-white">
+            <h3 class="mb-0">
+                <i class="fas fa-edit me-2"></i>Editar Professor: {{ professor.nome }}
+            </h3>
+        </div>
+        <div class="card-body">
+            <form method="POST" action="{{ url_for('main.editar_professor', professor_id=professor.id) }}">
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="nome" class="form-label">Nome do Professor</label>
+                        <input type="text" class="form-control" id="nome" name="nome" value="{{ professor.nome }}" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Matérias</label>
+                        <div class="dropdown">
+                            <button class="form-control text-start dropdown-toggle" type="button" id="materiasDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                {% if professor.materias %}{{ professor.materias|join(', ') }}{% else %}Selecione as matérias...{% endif %}
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-multiselect w-100" aria-labelledby="materiasDropdown">
+                                {% for materia in ['Matemática', 'Português', 'Física', 'Química', 'Biologia', 'História', 'Geografia', 'Inglês', 'Educação Física', 'Sociologia', 'Filosofia'] %}
+                                <div class="form-check">
+                                    <input class="form-check-input materia-checkbox" type="checkbox" name="materias" value="{{ materia }}" id="{{ materia|lower|replace(' ', '-') }}"
+                                        {% if materia in professor.materias %}checked{% endif %}>
+                                    <label class="form-check-label w-100" for="{{ materia|lower|replace(' ', '-') }}">{{ materia }}</label>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <label class="form-label">Disponibilidade</label>
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Dia/Horário</th>
+                                        <th>Segunda</th>
+                                        <th>Terça</th>
+                                        <th>Quarta</th>
+                                        <th>Quinta</th>
+                                        <th>Sexta</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for periodo, nome_periodo in [('manha', 'Manhã (08:00 - 12:00)'), ('tarde', 'Tarde (13:00 - 17:00)'), ('noite', 'Noite (18:00 - 22:00)')] %}
+                                    <tr>
+                                        <td>{{ nome_periodo }}</td>
+                                        {% for dia in ['Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta'] %}
+                                        <td>
+                                            <input type="checkbox" class="disponibilidade" name="disponibilidade[{{ dia }}][{{ periodo }}]"
+                                                {% if professor.disponibilidade[dia][periodo] %}checked{% endif %}>
+                                        </td>
+                                        {% endfor %}
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn btn-warning me-2">
+                    <i class="fas fa-save me-2"></i>Salvar Alterações
+                </button>
+                <a href="{{ url_for('main.index') }}" class="btn btn-secondary">
+                    <i class="fas fa-times me-2"></i>Cancelar
+                </a>
+            </form>
+        </div>
+    </div>
+{% endblock %}
+
+{% block scripts %}
+    <script>
+        $(document).ready(function() {
+            // Atualiza o texto do dropdown de matérias
+            $('.materia-checkbox').change(function() {
+                const selectedItems = [];
+                $('.materia-checkbox:checked').each(function() {
+                    selectedItems.push($(this).val());
+                });
+                
+                if (selectedItems.length > 0) {
+                    $('#materiasDropdown').text(selectedItems.join(', '));
+                } else {
+                    $('#materiasDropdown').text('Selecione as matérias...');
+                }
+            });
+
+            // Impede que o dropdown feche ao clicar nas checkboxes
+            $('.dropdown-menu-multiselect').on('click', function(e) {
+                e.stopPropagation();
+            });
+        });
+    </script>
+{% endblock %}

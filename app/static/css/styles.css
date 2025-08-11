@@ -1,0 +1,221 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.sidebar {
+    background: linear-gradient(135deg, #343a40 0%, #212529 100%);
+    position: fixed;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.main-content {
+    margin-left: 25%;
+    width: 75%;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    transition: all 0.3s;
+}
+
+.nav-link:hover, .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.nav-link i {
+    width: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    padding: 1.2rem;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+.btn {
+    padding: 0.5rem 1.2rem;
+    border-radius: 50px;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.btn i {
+    margin-right: 5px;
+}
+
+#tabelaProfessores tbody tr {
+    transition: background-color 0.2s;
+}
+
+#tabelaProfessores tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.05);
+}
+
+/* Estilo para a coluna de disponibilidade */
+#tabelaProfessores td:nth-child(3) {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    white-space: normal;
+}
+
+/* Estilos para a tabela de horários */
+.grade-horaria {
+    font-size: 0.9rem;
+}
+
+.grade-horaria th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.grade-horaria td {
+    vertical-align: middle;
+    min-width: 150px;
+    height: 60px;
+}
+
+.aula-info {
+    padding: 5px;
+    text-align: center;
+}
+
+.aula-info strong {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.professor {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.sem-aula {
+    color: #999;
+    text-align: center;
+}
+
+.horario {
+    font-weight: bold;
+    width: 80px;
+}
+
+/* Destaque para aulas alocadas */
+.grade-horaria td:not(:has(.sem-aula)) {
+    background-color: #f8f9fa;
+    border-left: 3px solid #0d6efd;
+}
+
+/* Responsividade */
+@media (max-width: 992px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .table-responsive {
+        overflow-x: auto;
+    }
+}
+
+/* Alertas flutuantes */
+.alert.position-fixed {
+    min-width: 300px;
+    right: 20px;
+    top: 20px;
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Checkbox estilizado */
+input[type="checkbox"] {
+    transform: scale(1.5);
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Animação para o botão de gerar horários */
+#gerarHorariosBtn {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+#gerarHorariosBtn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#gerarHorariosBtn:active {
+    transform: translateY(0);
+}
+
+/* Estilo para a tabela de disponibilidade */
+.table-bordered {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.table-bordered th, 
+.table-bordered td {
+    border: 1px solid #dee2e6;
+    text-align: center;
+}
+
+/* Espaçamento para os cards */
+.card {
+    margin-bottom: 1.5rem;
+}
+
+/* Estilo para o modal */
+.modal-content {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.modal-header {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.modal-footer {
+    border-top: none;
+}

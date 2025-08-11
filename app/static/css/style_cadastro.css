@@ -1,0 +1,77 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+}
+
+.header {
+  background-color: #b30032;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+/* Barra superior */
+.top-bar {
+background-color: #b30032;
+color: #ffffff;
+height: 70px;
+width: 100%;
+position: relative;
+}
+
+/* Logo no canto esquerdo */
+.logo-left {
+position: absolute;
+left: 20px;
+}
+
+/* Título centralizado com fonte maior */
+.titulo-projeto {
+font-family: 'Roboto', sans-serif;
+font-weight: 700; /* negrito */
+}
+
+.upload-area {
+  background-color: #fff0f3;
+  border-style: dashed;
+}
+
+.custom-btn {
+  background-color: #b30032; 
+  border: none;
+  padding: 10px 25px;
+  color: #ffffff; 
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #8a0027; 
+  
+}
+
+
+input::placeholder,
+select {
+  font-size: 0.95rem;
+}
+
+.custom-btn {
+  background-color: #b30032 !important;
+  border: none !important;
+  padding: 10px 25px;
+  color: #ffffff !important;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  box-shadow: none !important;
+}
+
+.custom-btn:hover,
+.custom-btn:focus,
+.custom-btn:active,
+.custom-btn:visited {
+  background-color: #8a0027 !important;
+  color: #ffffff !important;
+  border: none !important;
+  box-shadow: none !important;
+}
